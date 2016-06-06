@@ -352,3 +352,14 @@ table.dataTable thead .sorting:after {
 .panel-yellow a:hover {
     color: #df8a13;
 }
+
+.page-header {
+  font-size: 60px;
+  text-align: center;
+}
+
+.wordcloud {
+  width: 700px;
+  height: 700px;
+  padding-bottom: 30px;
+}
