@@ -359,7 +359,9 @@ table.dataTable thead .sorting:after {
 }
 
 .wordcloud {
-  width: 700px;
-  height: 700px;
   padding-bottom: 30px;
+}
+
+#page-wrapper.wrapper-mine{
+  margin: 0px;
 }
