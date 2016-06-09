@@ -304,10 +304,10 @@ $(function() {
             iphone: 500,
         }, {
             period: '2016-04-27 23:00',
-            iphone: 16,
+            iphone: 316,
         }, {
             period: '2016-04-28 00:00',
-            iphone: 79,
+            iphone: 379,
         }, {
             period: '2016-04-28 01:00',
             iphone: 220,
@@ -734,20 +734,20 @@ $(function() {
     Morris.Donut({
         element: 'morris-donut-chart',
         data: [{
+            label: "USA",
+            value: 5114
+        }, {
+            label: "United Kingdom",
+            value: 4203
+        }, {
             label: "Pakistan",
-            value: 2476
-        }, {
-            label: "United States",
-            value: 2108
-        }, {
-            label: "London",
-            value: 2045
+            value: 4039
         }, {
             label: "India",
-            value: 750
+            value: 1222
         }, {
             label: "Australia",
-            value: 648
+            value: 1146
         }],
         resize: true
     });
