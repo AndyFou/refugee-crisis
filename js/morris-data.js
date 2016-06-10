@@ -304,10 +304,10 @@ $(function() {
             iphone: 500,
         }, {
             period: '2016-04-27 23:00',
-            iphone: 16,
+            iphone: 316,
         }, {
             period: '2016-04-28 00:00',
-            iphone: 79,
+            iphone: 379,
         }, {
             period: '2016-04-28 01:00',
             iphone: 220,
@@ -734,20 +734,20 @@ $(function() {
     Morris.Donut({
         element: 'morris-donut-chart',
         data: [{
+            label: "USA",
+            value: 5114
+        }, {
+            label: "United Kingdom",
+            value: 4203
+        }, {
             label: "Pakistan",
-            value: 2476
-        }, {
-            label: "United States",
-            value: 2108
-        }, {
-            label: "London",
-            value: 2045
+            value: 4039
         }, {
             label: "India",
-            value: 750
+            value: 1222
         }, {
             label: "Australia",
-            value: 648
+            value: 1146
         }],
         resize: true
     });
@@ -755,33 +755,38 @@ $(function() {
     Morris.Bar({
         element: 'morris-bar-chart',
         data: [{
-            y: '2006',
-            a: 100,
-            b: 90
+            y: '23/04',
+            a: 2595
         }, {
-            y: '2007',
-            a: 75,
-            b: 65
+            y: '24/04',
+            a: 13314
         }, {
-            y: '2008',
-            a: 50,
-            b: 40
+            y: '25/04',
+            a: 13624
         }, {
-            y: '2009',
-            a: 75,
-            b: 65
+            y: '26/04',
+            a: 13707
         }, {
-            y: '2010',
-            a: 50,
-            b: 40
+            y: '27/04',
+            a: 12675
         }, {
-            y: '2011',
-            a: 75,
-            b: 65
+            y: '28/04',
+            a: 9483
         }, {
-            y: '2012',
-            a: 100,
-            b: 90
+            y: '29/04',
+            a: 9941
+        }, {
+            y: '30/04',
+            a: 9743
+        }, {
+            y: '01/05',
+            a: 9470
+        }, {
+            y: '02/05',
+            a: 9082
+        }, {
+            y: '03/05',
+            a: 6807
         }],
         xkey: 'y',
         ykeys: ['a', 'b'],

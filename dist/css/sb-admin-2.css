@@ -354,7 +354,7 @@ table.dataTable thead .sorting:after {
 }
 
 .page-header {
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -364,4 +364,28 @@ table.dataTable thead .sorting:after {
 
 #page-wrapper.wrapper-mine{
   margin: 0px;
+}
+
+.splashscreen{
+  background-color: white;
+}
+
+#splashscreen{
+  margin: 20px 100px;
+}
+
+.splash-body>div:nth-of-type(1){
+    padding: 7%;
+}
+
+.splash-body>div:nth-of-type(2){
+    padding: 2%;
+}
+
+.abstract{
+  font-size: 18px;
+}
+
+.splash-img img {
+  width:75%;
 }

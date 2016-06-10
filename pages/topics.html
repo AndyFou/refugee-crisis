@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>REfugee CRisis</title>
+  <title>Topic Modeling</title>
 
   <!-- Bootstrap Core CSS -->
   <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -52,13 +52,7 @@
         <div class="panel panel-primary">
           <div class="panel-heading">
             <div class="row">
-              <div class="col-xs-3">
-                <i class="fa fa-comments-o fa-5x"></i>
-              </div>
-              <div class="col-xs-9 text-right">
-                <div class="huge">130.782</div>
-                <div>Tweets!</div>
-              </div>
+              <!-- ADD ELEMENT -->
             </div>
           </div>
         </div>
@@ -101,7 +95,7 @@
                 <i class="fa fa-smile-o fa-5x"></i>
               </div>
               <div class="col-xs-9 text-right">
-                <div class="huge">15</div>
+                <div class="huge">16</div>
                 <div>Sentiments!</div>
               </div>
             </div>
@@ -112,7 +106,7 @@
     <!-- /.row -->
     <div class="row">
       <div class="col-lg-8">
-        <div class="panel panel-info">
+        <div class="panel panel-default">
           <div class="panel-heading">
             <i class="fa fa-bar-chart-o fa-fw"></i> Tweets per Hour
             <div class="pull-right">
@@ -127,7 +121,8 @@
           <!-- /.panel-body -->
         </div>
         <!-- /.panel -->
-        <div class="panel panel-success">
+        <div class="panel panel-default">
+          <div class="panel-heading">
           <div class="panel-heading">
             <i class="fa fa-bar-chart-o fa-fw"></i> Top Users / Users per Day
             <div class="pull-right">
@@ -223,113 +218,12 @@
             </div>
             <!-- /.row -->
           </div>
-          <div class="panel panel-warning">
-            <div class="panel-heading">
-              <i class="fa fa-bar-chart-o fa-fw"></i> Query words
-              <div class="pull-right">
-                <div class="btn-group">
-                </div>
-              </div>
-            </div>
-            <!-- /.panel-heading -->
-            <div class="panel-body">
-                  <div class="table-responsive">
-                      <table class="table">
-                          <thead>
-                              <tr>
-                                  <th>General</th>
-                                  <th>General</th>
-                                  <th>Hashtags</th>
-                                  <th>Border-related</th>
-                                  <th>Locations</th>
-                                  <th>Entities</th></tr>
-                          </thead>
-                          <tbody>
-                              <tr>
-                                  <td>migrants</td>
-                                  <td>refugees</td>
-                                  <td>#RefugeeCrisis</td>
-                                  <td>borders</td>
-                                  <td>Syria</td>
-                                  <td>European Mobilisation</td>
-                              </tr>
-                              <tr>
-                                  <td>migration flow</td>
-                                  <td>migration crisis</td>
-                                  <td>#refugeesGr</td>
-                                  <td>open borders</td>
-                                  <td>Iraq</td>
-                                  <td>Amnesty International</td>
-                              </tr>
-                              <tr>
-                                  <td>migrant camps</td>
-                                  <td>refugee camps</td>
-                                  <td>#refugeeswelcome</td>
-                                  <td>border closure</td>
-                                  <td>Afghanistan</td>
-                                  <td>Frontex</td>
-                              </tr>
-                              <tr>
-                                  <td>irregular migrants</td>
-                                  <td>asylum seekers</td>
-                                  <td>#FortressEurope</td>
-                                  <td>border share</td>
-                                  <td>Pakistan</td>
-                                  <td>UNHCR</td>
-                              </tr>
-                              <tr>
-                                  <td>human rights</td>
-                                  <td>solidarity</td>
-                                  <td>#ProMuslimRefugees</td>
-                                  <td>No borders</td>
-                                  <td>Idomeni</td>
-                                  <td>UN Refugee Agency</td>
-                              </tr>
-                              <tr>
-                                  <td>ISIS</td>
-                                  <td>daesh</td>
-                                  <td>#helpiscoming</td>
-                                  <td>#OpentheBorders</td>
-                                  <td>Calais</td>
-                                  <td>@Moving Europe</td>
-                              </tr>
-                              <tr>
-                                  <td>muslims</td>
-                                  <td>islamists</td>
-                                  <td>#solidaritywithrefugees</td>
-                                  <td></td>
-                                  <td>Lesbos</td>
-                                  <td> </td>
-                              </tr>
-                              <tr>
-                                  <td>Balkan route</td>
-                                  <td>rapefugees</td>
-                                  <td>#safepassage</td>
-                                  <td></td>
-                                  <td>Lesvos</td>
-                                  <td> </td>
-                              </tr>
-                              <tr>
-                                  <td>Aylan</td>
-                                  <td></td>
-                                  <td>#antireport</td>
-                                  <td></td>
-                                  <td>Lesbosisland</td>
-                                  <td> </td>
-                              </tr>
-                          </tbody>
-                      </table>
-                  </div>
-                  <!-- /.table-responsive -->
-            </div>
-            <!-- /.panel-body -->
-          </div>
           <!-- /.panel-body -->
         </div>
       </div>
       <!-- /.col-lg-8 -->
       <div class="col-lg-4">
-        <div class="panel panel-warning">
+        <div class="panel panel-default">
           <div class="panel-heading">
             <i class="fa fa-cloud fa-fw"></i> Most Frequent Hashtags
           </div>
@@ -341,9 +235,9 @@
             </div>
           </div>
         </div>
-        <div class="chat-panel panel panel-info">
+        <div class="chat-panel panel panel-default">
           <div class="panel-heading">
-            <i class="fa fa-comments fa-fw"></i> Sample Tweets
+            <i class="fa fa-comments fa-fw"></i> Most Retweeted Tweets
             <div class="btn-group pull-right">
             </div>
           </div>
@@ -445,9 +339,9 @@
           </div>
         </div>
 
-        <div class="panel panel-info">
+        <div class="panel panel-default">
           <div class="panel-heading">
-            <i class="fa fa-bar-chart-o fa-fw"></i> Top Countries by tweets count
+            <i class="fa fa-bar-chart-o fa-fw"></i> Top Locations
           </div>
           <div class="panel-body">
             <div id="morris-donut-chart"></div>
