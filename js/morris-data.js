@@ -4,728 +4,728 @@ $(function() {
         element: 'morris-area-chart',
         data: [{
             period: '2016-04-23 19:00',
-            iphone: 380,
+            tweet: 380,
         }, {
             period: '2016-04-23 20:00',
-            iphone: 589,
+            tweet: 589,
         }, {
             period: '2016-04-23 21:00',
-            iphone: 652,
+            tweet: 652,
         }, {
             period: '2016-04-23 22:00',
-            iphone: 780,
+            tweet: 780,
         }, {
             period: '2016-04-23 23:00',
-            iphone: 595,
+            tweet: 595,
         }, {
             period: '2016-04-24 00:00',
-            iphone: 783,
+            tweet: 783,
         }, {
             period: '2016-04-24 01:00',
-            iphone: 689,
+            tweet: 689,
         }, {
             period: '2016-04-24 02:00',
-            iphone: 681,
+            tweet: 681,
         }, {
             period: '2016-04-24 03:00',
-            iphone: 667,
+            tweet: 667,
         }, {
             period: '2016-04-24 04:00',
-            iphone: 746,
+            tweet: 746,
         }, {
             period: '2016-04-24 05:00',
-            iphone: 667,
+            tweet: 667,
         }, {
             period: '2016-04-24 06:00',
-            iphone: 752,
+            tweet: 752,
         }, {
             period: '2016-04-24 07:00',
-            iphone: 659,
+            tweet: 659,
         }, {
             period: '2016-04-24 08:00',
-            iphone: 675,
+            tweet: 675,
         }, {
             period: '2016-04-24 09:00',
-            iphone: 747,
+            tweet: 747,
         }, {
             period: '2016-04-24 10:00',
-            iphone: 700,
+            tweet: 700,
         }, {
             period: '2016-04-24 11:00',
-            iphone: 693,
+            tweet: 693,
         }, {
             period: '2016-04-24 12:00',
-            iphone: 712,
+            tweet: 712,
         }, {
             period: '2016-04-24 13:00',
-            iphone: 693,
+            tweet: 693,
         }, {
             period: '2016-04-24 14:00',
-            iphone: 650,
+            tweet: 650,
         }, {
             period: '2016-04-24 15:00',
-            iphone: 640,
+            tweet: 640,
         }, {
             period: '2016-04-24 16:00',
-            iphone: 583,
+            tweet: 583,
         }, {
             period: '2016-04-24 17:00',
-            iphone: 756,
+            tweet: 756,
         }, {
             period: '2016-04-24 18:00',
-            iphone: 667,
+            tweet: 667,
         }, {
             period: '2016-04-24 19:00',
-            iphone: 680,
+            tweet: 680,
         }, {
             period: '2016-04-24 20:00',
-            iphone: 619,
+            tweet: 619,
         }, {
             period: '2016-04-24 21:00',
-            iphone: 693,
+            tweet: 693,
         }, {
             period: '2016-04-24 22:00',
-            iphone: 675,
+            tweet: 675,
         }, {
             period: '2016-04-24 23:00',
-            iphone: 752,
+            tweet: 752,
         }, {
             period: '2016-04-25 00:00',
-            iphone: 630,
+            tweet: 630,
         }, {
             period: '2016-04-25 01:00',
-            iphone: 758,
+            tweet: 758,
         }, {
             period: '2016-04-25 02:00',
-            iphone: 693,
+            tweet: 693,
         }, {
             period: '2016-04-25 03:00',
-            iphone: 623,
+            tweet: 623,
         }, {
             period: '2016-04-25 04:00',
-            iphone: 709,
+            tweet: 709,
         }, {
             period: '2016-04-25 05:00',
-            iphone: 686,
+            tweet: 686,
         }, {
             period: '2016-04-25 06:00',
-            iphone: 660,
+            tweet: 660,
         }, {
             period: '2016-04-25 07:00',
-            iphone: 699,
+            tweet: 699,
         }, {
             period: '2016-04-25 08:00',
-            iphone: 719,
+            tweet: 719,
         }, {
             period: '2016-04-25 09:00',
-            iphone: 716,
+            tweet: 716,
         }, {
             period: '2016-04-25 10:00',
-            iphone: 550,
+            tweet: 550,
         }, {
             period: '2016-04-25 11:00',
-            iphone: 717,
+            tweet: 717,
         }, {
             period: '2016-04-25 12:00',
-            iphone: 765,
+            tweet: 765,
         }, {
             period: '2016-04-25 13:00',
-            iphone: 584,
+            tweet: 584,
         }, {
             period: '2016-04-25 14:00',
-            iphone: 682,
+            tweet: 682,
         }, {
             period: '2016-04-25 15:00',
-            iphone: 526,
+            tweet: 526,
         }, {
             period: '2016-04-25 16:00',
-            iphone: 668,
+            tweet: 668,
         }, {
             period: '2016-04-25 17:00',
-            iphone: 720,
+            tweet: 720,
         }, {
             period: '2016-04-25 18:00',
-            iphone: 615,
+            tweet: 615,
         }, {
             period: '2016-04-25 19:00',
-            iphone: 646,
+            tweet: 646,
         }, {
             period: '2016-04-25 20:00',
-            iphone: 805,
+            tweet: 805,
         }, {
             period: '2016-04-25 21:00',
-            iphone: 661,
+            tweet: 661,
         }, {
             period: '2016-04-25 22:00',
-            iphone: 705,
+            tweet: 705,
         }, {
             period: '2016-04-25 23:00',
-            iphone: 654,
+            tweet: 654,
         }, {
             period: '2016-04-26 00:00',
-            iphone: 760,
+            tweet: 760,
         }, {
             period: '2016-04-26 01:00',
-            iphone: 610,
+            tweet: 610,
         }, {
             period: '2016-04-26 02:00',
-            iphone: 768,
+            tweet: 768,
         }, {
             period: '2016-04-26 03:00',
-            iphone: 671,
+            tweet: 671,
         }, {
             period: '2016-04-26 04:00',
-            iphone: 605,
+            tweet: 605,
         }, {
             period: '2016-04-26 05:00',
-            iphone: 729,
+            tweet: 729,
         }, {
             period: '2016-04-26 06:00',
-            iphone: 695,
+            tweet: 695,
         }, {
             period: '2016-04-26 07:00',
-            iphone: 695,
+            tweet: 695,
         }, {
             period: '2016-04-26 08:00',
-            iphone: 738,
+            tweet: 738,
         }, {
             period: '2016-04-26 09:00',
-            iphone: 728,
+            tweet: 728,
         }, {
             period: '2016-04-26 10:00',
-            iphone: 648,
+            tweet: 648,
         }, {
             period: '2016-04-26 11:00',
-            iphone: 719,
+            tweet: 719,
         }, {
             period: '2016-04-26 12:00',
-            iphone: 544,
+            tweet: 544,
         }, {
             period: '2016-04-26 13:00',
-            iphone: 690,
+            tweet: 690,
         }, {
             period: '2016-04-26 14:00',
-            iphone: 700,
+            tweet: 700,
         }, {
             period: '2016-04-26 15:00',
-            iphone: 487,
+            tweet: 487,
         }, {
             period: '2016-04-26 16:00',
-            iphone: 487,
+            tweet: 487,
         }, {
             period: '2016-04-26 17:00',
-            iphone: 664,
+            tweet: 664,
         }, {
             period: '2016-04-26 18:00',
-            iphone: 789,
+            tweet: 789,
         }, {
             period: '2016-04-26 19:00',
-            iphone: 672,
+            tweet: 672,
         }, {
             period: '2016-04-26 20:00',
-            iphone: 667,
+            tweet: 667,
         }, {
             period: '2016-04-26 21:00',
-            iphone: 652,
+            tweet: 652,
         }, {
             period: '2016-04-26 22:00',
-            iphone: 813,
+            tweet: 813,
         }, {
             period: '2016-04-26 23:00',
-            iphone: 644,
+            tweet: 644,
         }, {
             period: '2016-04-27 00:00',
-            iphone: 647,
+            tweet: 647,
         }, {
             period: '2016-04-27 01:00',
-            iphone: 718,
+            tweet: 718,
         }, {
             period: '2016-04-27 02:00',
-            iphone: 699,
+            tweet: 699,
         }, {
             period: '2016-04-27 03:00',
-            iphone: 672,
+            tweet: 672,
         }, {
             period: '2016-04-27 04:00',
-            iphone: 681,
+            tweet: 681,
         }, {
             period: '2016-04-27 05:00',
-            iphone: 690,
+            tweet: 690,
         }, {
             period: '2016-04-27 06:00',
-            iphone: 679,
+            tweet: 679,
         }, {
             period: '2016-04-27 07:00',
-            iphone: 617,
+            tweet: 617,
         }, {
             period: '2016-04-27 08:00',
-            iphone: 678,
+            tweet: 678,
         }, {
             period: '2016-04-27 09:00',
-            iphone: 672,
+            tweet: 672,
         }, {
             period: '2016-04-27 10:00',
-            iphone: 663,
+            tweet: 663,
         }, {
             period: '2016-04-27 11:00',
-            iphone: 794,
+            tweet: 794,
         }, {
             period: '2016-04-27 12:00',
-            iphone: 590,
+            tweet: 590,
         }, {
             period: '2016-04-27 13:00',
-            iphone: 501,
+            tweet: 501,
         }, {
             period: '2016-04-27 14:00',
-            iphone: 619,
+            tweet: 619,
         }, {
             period: '2016-04-27 15:00',
-            iphone: 714,
+            tweet: 714,
         }, {
             period: '2016-04-27 16:00',
-            iphone: 316,
+            tweet: 316,
         }, {
             period: '2016-04-27 17:00',
-            iphone: 698,
+            tweet: 698,
         }, {
             period: '2016-04-27 18:00',
-            iphone: 652,
+            tweet: 652,
         }, {
             period: '2016-04-27 19:00',
-            iphone: 673,
+            tweet: 673,
         }, {
             period: '2016-04-27 20:00',
-            iphone: 748,
+            tweet: 748,
         }, {
             period: '2016-04-27 21:00',
-            iphone: 614,
+            tweet: 614,
         }, {
             period: '2016-04-27 22:00',
-            iphone: 500,
+            tweet: 500,
         }, {
             period: '2016-04-27 23:00',
-            iphone: 316,
+            tweet: 316,
         }, {
             period: '2016-04-28 00:00',
-            iphone: 379,
+            tweet: 379,
         }, {
             period: '2016-04-28 01:00',
-            iphone: 220,
+            tweet: 220,
         }, {
             period: '2016-04-28 02:00',
-            iphone: 424,
+            tweet: 424,
         }, {
             period: '2016-04-28 03:00',
-            iphone: 508,
+            tweet: 508,
         }, {
             period: '2016-04-28 04:00',
-            iphone: 518,
+            tweet: 518,
         }, {
             period: '2016-04-28 05:00',
-            iphone: 422,
+            tweet: 422,
         }, {
             period: '2016-04-28 06:00',
-            iphone: 513,
+            tweet: 513,
         }, {
             period: '2016-04-28 07:00',
-            iphone: 447,
+            tweet: 447,
         }, {
             period: '2016-04-28 08:00',
-            iphone: 481,
+            tweet: 481,
         }, {
             period: '2016-04-28 09:00',
-            iphone: 448,
+            tweet: 448,
         }, {
             period: '2016-04-28 10:00',
-            iphone: 544,
+            tweet: 544,
         }, {
             period: '2016-04-28 11:00',
-            iphone: 454,
+            tweet: 454,
         }, {
             period: '2016-04-28 12:00',
-            iphone: 422,
+            tweet: 422,
         }, {
             period: '2016-04-28 13:00',
-            iphone: 388,
+            tweet: 388,
         }, {
             period: '2016-04-28 14:00',
-            iphone: 448,
+            tweet: 448,
         }, {
             period: '2016-04-28 15:00',
-            iphone: 519,
+            tweet: 519,
         }, {
             period: '2016-04-28 16:00',
-            iphone: 517,
+            tweet: 517,
         }, {
             period: '2016-04-28 17:00',
-            iphone: 435,
+            tweet: 435,
         }, {
             period: '2016-04-28 18:00',
-            iphone: 461,
+            tweet: 461,
         }, {
             period: '2016-04-28 19:00',
-            iphone: 575,
+            tweet: 575,
         }, {
             period: '2016-04-28 20:00',
-            iphone: 385,
+            tweet: 385,
         }, {
             period: '2016-04-28 21:00',
-            iphone: 526,
+            tweet: 526,
         }, {
             period: '2016-04-28 22:00',
-            iphone: 494,
+            tweet: 494,
         }, {
             period: '2016-04-28 23:00',
-            iphone: 486,
+            tweet: 486,
         }, {
             period: '2016-04-29 00:00',
-            iphone: 461,
+            tweet: 461,
         }, {
             period: '2016-04-29 01:00',
-            iphone: 561,
+            tweet: 561,
         }, {
             period: '2016-04-29 02:00',
-            iphone: 472,
+            tweet: 472,
         }, {
             period: '2016-04-29 03:00',
-            iphone: 425,
+            tweet: 425,
         }, {
             period: '2016-04-29 04:00',
-            iphone: 503,
+            tweet: 503,
         }, {
             period: '2016-04-29 05:00',
-            iphone: 472,
+            tweet: 472,
         }, {
             period: '2016-04-29 06:00',
-            iphone: 550,
+            tweet: 550,
         }, {
             period: '2016-04-29 07:00',
-            iphone: 480,
+            tweet: 480,
         }, {
             period: '2016-04-29 08:00',
-            iphone: 513,
+            tweet: 513,
         }, {
             period: '2016-04-29 09:00',
-            iphone: 436,
+            tweet: 436,
         }, {
             period: '2016-04-29 10:00',
-            iphone: 529,
+            tweet: 529,
         }, {
             period: '2016-04-29 11:00',
-            iphone: 490,
+            tweet: 490,
         }, {
             period: '2016-04-29 12:00',
-            iphone: 475,
+            tweet: 475,
         }, {
             period: '2016-04-29 13:00',
-            iphone: 507,
+            tweet: 507,
         }, {
             period: '2016-04-29 14:00',
-            iphone: 509,
+            tweet: 509,
         }, {
             period: '2016-04-29 15:00',
-            iphone: 455,
+            tweet: 455,
         }, {
             period: '2016-04-29 16:00',
-            iphone: 364,
+            tweet: 364,
         }, {
             period: '2016-04-29 17:00',
-            iphone: 488,
+            tweet: 488,
         }, {
             period: '2016-04-29 18:00',
-            iphone: 375,
+            tweet: 375,
         }, {
             period: '2016-04-29 19:00',
-            iphone: 473,
+            tweet: 473,
         }, {
             period: '2016-04-29 20:00',
-            iphone: 475,
+            tweet: 475,
         }, {
             period: '2016-04-29 21:00',
-            iphone: 495,
+            tweet: 495,
         }, {
             period: '2016-04-29 22:00',
-            iphone: 462,
+            tweet: 462,
         }, {
             period: '2016-04-29 23:00',
-            iphone: 473,
+            tweet: 473,
         }, {
             period: '2016-04-30 00:00',
-            iphone: 498,
+            tweet: 498,
         }, {
             period: '2016-04-30 01:00',
-            iphone: 467,
+            tweet: 467,
         }, {
             period: '2016-04-30 02:00',
-            iphone: 492,
+            tweet: 492,
         }, {
             period: '2016-04-30 03:00',
-            iphone: 521,
+            tweet: 521,
         }, {
             period: '2016-04-30 04:00',
-            iphone: 518,
+            tweet: 518,
         }, {
             period: '2016-04-30 05:00',
-            iphone: 502,
+            tweet: 502,
         }, {
             period: '2016-04-30 06:00',
-            iphone: 446,
+            tweet: 446,
         }, {
             period: '2016-04-30 07:00',
-            iphone: 451,
+            tweet: 451,
         }, {
             period: '2016-04-30 08:00',
-            iphone: 559,
+            tweet: 559,
         }, {
             period: '2016-04-30 09:00',
-            iphone: 450,
+            tweet: 450,
         }, {
             period: '2016-04-30 10:00',
-            iphone: 521,
+            tweet: 521,
         }, {
             period: '2016-04-30 11:00',
-            iphone: 433,
+            tweet: 433,
         }, {
             period: '2016-04-30 12:00',
-            iphone: 516,
+            tweet: 516,
         }, {
             period: '2016-04-30 13:00',
-            iphone: 486,
+            tweet: 486,
         }, {
             period: '2016-04-30 14:00',
-            iphone: 398,
+            tweet: 398,
         }, {
             period: '2016-04-30 15:00',
-            iphone: 453,
+            tweet: 453,
         }, {
             period: '2016-04-30 16:00',
-            iphone: 347,
+            tweet: 347,
         }, {
             period: '2016-04-30 17:00',
-            iphone: 433,
+            tweet: 433,
         }, {
             period: '2016-04-30 18:00',
-            iphone: 483,
+            tweet: 483,
         }, {
             period: '2016-04-30 19:00',
-            iphone: 434,
+            tweet: 434,
         }, {
             period: '2016-04-30 20:00',
-            iphone: 466,
+            tweet: 466,
         }, {
             period: '2016-04-30 21:00',
-            iphone: 474,
+            tweet: 474,
         }, {
             period: '2016-04-30 22:00',
-            iphone: 477,
+            tweet: 477,
         }, {
             period: '2016-04-30 23:00',
-            iphone: 470,
+            tweet: 470,
         }, {
             period: '2016-05-01 00:00',
-            iphone: 512,
+            tweet: 512,
         }, {
             period: '2016-05-01 01:00',
-            iphone: 459,
+            tweet: 459,
         }, {
             period: '2016-05-01 02:00',
-            iphone: 486,
+            tweet: 486,
         }, {
             period: '2016-05-01 03:00',
-            iphone: 455,
+            tweet: 455,
         }, {
             period: '2016-05-01 04:00',
-            iphone: 465,
+            tweet: 465,
         }, {
             period: '2016-05-01 05:00',
-            iphone: 492,
+            tweet: 492,
         }, {
             period: '2016-05-01 06:00',
-            iphone: 534,
+            tweet: 534,
         }, {
             period: '2016-05-01 07:00',
-            iphone: 513,
+            tweet: 513,
         }, {
             period: '2016-05-01 08:00',
-            iphone: 384,
+            tweet: 384,
         }, {
             period: '2016-05-01 09:00',
-            iphone: 514,
+            tweet: 514,
         }, {
             period: '2016-05-01 10:00',
-            iphone: 460,
+            tweet: 460,
         }, {
             period: '2016-05-01 11:00',
-            iphone: 449,
+            tweet: 449,
         }, {
             period: '2016-05-01 12:00',
-            iphone: 530,
+            tweet: 530,
         }, {
             period: '2016-05-01 13:00',
-            iphone: 456,
+            tweet: 456,
         }, {
             period: '2016-05-01 14:00',
-            iphone: 411,
+            tweet: 411,
         }, {
             period: '2016-05-01 15:00',
-            iphone: 423,
+            tweet: 423,
         }, {
             period: '2016-05-01 16:00',
-            iphone: 472,
+            tweet: 472,
         }, {
             period: '2016-05-01 17:00',
-            iphone: 361,
+            tweet: 361,
         }, {
             period: '2016-05-01 18:00',
-            iphone: 546,
+            tweet: 546,
         }, {
             period: '2016-05-01 19:00',
-            iphone: 397,
+            tweet: 397,
         }, {
             period: '2016-05-01 20:00',
-            iphone: 410,
+            tweet: 410,
         }, {
             period: '2016-05-01 21:00',
-            iphone: 414,
+            tweet: 414,
         }, {
             period: '2016-05-01 22:00',
-            iphone: 391,
+            tweet: 391,
         }, {
             period: '2016-05-01 23:00',
-            iphone: 520,
+            tweet: 520,
         }, {
             period: '2016-05-02 00:00',
-            iphone: 418,
+            tweet: 418,
         }, {
             period: '2016-05-02 01:00',
-            iphone: 432,
+            tweet: 432,
         }, {
             period: '2016-05-02 02:00',
-            iphone: 470,
+            tweet: 470,
         }, {
             period: '2016-05-02 03:00',
-            iphone: 561,
+            tweet: 561,
         }, {
             period: '2016-05-02 04:00',
-            iphone: 403,
+            tweet: 403,
         }, {
             period: '2016-05-02 05:00',
-            iphone: 555,
+            tweet: 555,
         }, {
             period: '2016-05-02 06:00',
-            iphone: 463,
+            tweet: 463,
         }, {
             period: '2016-05-02 07:00',
-            iphone: 457,
+            tweet: 457,
         }, {
             period: '2016-05-02 08:00',
-            iphone: 490,
+            tweet: 490,
         }, {
             period: '2016-05-02 09:00',
-            iphone: 394,
+            tweet: 394,
         }, {
             period: '2016-05-02 10:00',
-            iphone: 465,
+            tweet: 465,
         }, {
             period: '2016-05-02 11:00',
-            iphone: 500,
+            tweet: 500,
         }, {
             period: '2016-05-02 12:00',
-            iphone: 427,
+            tweet: 427,
         }, {
             period: '2016-05-02 13:00',
-            iphone: 494,
+            tweet: 494,
         }, {
             period: '2016-05-02 14:00',
-            iphone: 380,
+            tweet: 380,
         }, {
             period: '2016-05-02 15:00',
-            iphone: 369,
+            tweet: 369,
         }, {
             period: '2016-05-02 16:00',
-            iphone: 392,
+            tweet: 392,
         }, {
             period: '2016-05-02 17:00',
-            iphone: 446,
+            tweet: 446,
         }, {
             period: '2016-05-02 18:00',
-            iphone: 336,
+            tweet: 336,
         }, {
             period: '2016-05-02 19:00',
-            iphone: 380,
+            tweet: 380,
         }, {
             period: '2016-05-02 20:00',
-            iphone: 438,
+            tweet: 438,
         }, {
             period: '2016-05-02 21:00',
-            iphone: 467,
+            tweet: 467,
         }, {
             period: '2016-05-02 22:00',
-            iphone: 452,
+            tweet: 452,
         }, {
             period: '2016-05-02 23:00',
-            iphone: 346,
+            tweet: 346,
         }, {
             period: '2016-05-03 00:00',
-            iphone: 498,
+            tweet: 498,
         }, {
             period: '2016-05-03 01:00',
-            iphone: 406,
+            tweet: 406,
         }, {
             period: '2016-05-03 02:00',
-            iphone: 449,
+            tweet: 449,
         }, {
             period: '2016-05-03 03:00',
-            iphone: 463,
+            tweet: 463,
         }, {
             period: '2016-05-03 04:00',
-            iphone: 386,
+            tweet: 386,
         }, {
             period: '2016-05-03 05:00',
-            iphone: 480,
+            tweet: 480,
         }, {
             period: '2016-05-03 06:00',
-            iphone: 497,
+            tweet: 497,
         }, {
             period: '2016-05-03 07:00',
-            iphone: 410,
+            tweet: 410,
         }, {
             period: '2016-05-03 08:00',
-            iphone: 508,
+            tweet: 508,
         }, {
             period: '2016-05-03 09:00',
-            iphone: 439,
+            tweet: 439,
         }, {
             period: '2016-05-03 10:00',
-            iphone: 445,
+            tweet: 445,
         }, {
             period: '2016-05-03 11:00',
-            iphone: 466,
+            tweet: 466,
         }, {
             period: '2016-05-03 12:00',
-            iphone: 322,
+            tweet: 322,
         }, {
             period: '2016-05-03 13:00',
-            iphone: 276,
+            tweet: 276,
         }, {
             period: '2016-05-03 14:00',
-            iphone: 337,
+            tweet: 337,
         }, {
             period: '2016-05-03 15:00',
-            iphone: 455,
+            tweet: 455,
         }, {
             period: '2016-05-03 16:00',
-            iphone: 380,
+            tweet: 380,
         }, {
             period: '2016-05-03 17:00',
-            iphone: 434,
+            tweet: 434,
         }, {
             period: '2016-05-03 18:00',
-            iphone: 292,
+            tweet: 292,
         }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['tweet'],
+        labels: ['Tweets'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
@@ -789,8 +789,8 @@ $(function() {
             a: 6807
         }],
         xkey: 'y',
-        ykeys: ['a', 'b'],
-        labels: ['Series A', 'Series B'],
+        ykeys: ['a'],
+        labels: ['Users'],
         hideHover: 'auto',
         resize: true
     });
