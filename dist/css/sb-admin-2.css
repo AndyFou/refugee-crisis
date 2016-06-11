@@ -391,6 +391,12 @@ table.dataTable thead .sorting:after {
   font-size: 18px;
 }
 
+.center-justified{
+  text-align: justify;
+  margin: 0 auto;
+  width: 30em;
+}
+
 .splash-img img {
   width:75%;
 }
