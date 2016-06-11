@@ -39,181 +39,101 @@
 </head>
 
 <body>
-  <div id="page-wrapper" class="wrapper-mine">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1 class="page-header">Twitter Αnalysis on Refugee Crisis</h1>
+
+  <div id="wrapper">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">RECR</a>
       </div>
-      <!-- /.col-lg-12 -->
-    </div>
-    <!-- /.row -->
-    <div class="row">
-      <div class="col-lg-3 col-md-6">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <div class="row">
-              <div class="col-xs-3">
-                <i class="fa fa-comments-o fa-5x"></i>
-              </div>
-              <div class="col-xs-9 text-right">
-                <div class="huge">130.782</div>
-                <div>Tweets!</div>
-              </div>
-            </div>
-          </div>
+      <!-- /.navbar-header -->
+
+      <ul class="nav navbar-top-links navbar-right">
+        <li class=""><a href="../index.html"><i class="fa fa-home navicon"></i></a>
+        </li>
+        <li><a href="#">Data</a>
+        </li>
+        <li><a href="topics.html">Events</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- /Navigation -->
+    <div id="page-wrapper" class="wrapper-mine">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Twitter Αnalysis on Refugee Crisis</h1>
         </div>
+        <!-- /.col-lg-12 -->
       </div>
-      <div class="col-lg-3 col-md-6">
-        <div class="panel panel-green">
-          <div class="panel-heading">
-            <div class="row">
-              <div class="col-xs-3">
-                <i class="fa fa-user fa-5x"></i>
-              </div>
-              <div class="col-xs-9 text-right">
-                <div class="huge">84.117</div>
-                <div>Users!</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <div class="panel panel-yellow">
-          <div class="panel-heading">
-            <div class="row">
-              <div class="col-xs-3">
-                <i class="fa fa-file-text-o fa-5x"></i>
-              </div>
-              <div class="col-xs-9 text-right">
-                <div class="huge">44.559</div>
-                <div>Distinct Words!</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <div class="panel panel-red">
-          <div class="panel-heading">
-            <div class="row">
-              <div class="col-xs-3">
-                <i class="fa fa-smile-o fa-5x"></i>
-              </div>
-              <div class="col-xs-9 text-right">
-                <div class="huge">15</div>
-                <div>Sentiments!</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.row -->
-    <div class="row">
-      <div class="col-lg-8">
-        <div class="panel panel-info">
-          <div class="panel-heading">
-            <i class="fa fa-bar-chart-o fa-fw"></i> Tweets per Hour<i class="fa fa-info-circle fa-fw"></i>
-            <div class="pull-right">
-              <div class="btn-group">
-              </div>
-            </div>
-          </div>
-          <!-- /.panel-heading -->
-          <div class="panel-body">
-            <div id="morris-area-chart"></div>
-          </div>
-          <!-- /.panel-body -->
-        </div>
-        <!-- /.panel -->
-        <div class="panel panel-success">
-          <div class="panel-heading">
-            <i class="fa fa-bar-chart-o fa-fw"></i> Top Users &amp; Users per Day<i class="fa fa-info-circle fa-fw"></i>
-            <div class="pull-right">
-              <div class="btn-group">
-              </div>
-            </div>
-          </div>
-          <!-- /.panel-heading -->
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="table-responsive">
-                  <table class="table table-bordered table-hover table-striped">
-                    <thead>
-                      <tr>
-                        <th>#Freq</th>
-                        <th>Username</th>
-                        <th>Followers</th>
-                        <th>Location</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>322</td>
-                        <td>cyberahsokatano</td>
-                        <td>1</td>
-                        <td>Starkiller Base</td>
-                      </tr>
-                      <tr>
-                        <td>287</td>
-                        <td>khalidrafiq138</td>
-                        <td>1092</td>
-                        <td>Pakistan</td>
-                      </tr>
-                      <tr>
-                        <td>183</td>
-                        <td>pakistanepeak</td>
-                        <td>1110</td>
-                        <td>Санкт-Петербург</td>
-                      </tr>
-                      <tr>
-                        <td>143</td>
-                        <td>pakistani_news</td>
-                        <td>10180</td>
-                        <td>Pakistan</td>
-                      </tr>
-                      <tr>
-                        <td>120</td>
-                        <td>Hash_Pakistan</td>
-                        <td>177</td>
-                        <td>+923437577075</td>
-                      </tr>
-                      <tr>
-                        <td>107</td>
-                        <td>CtrlSec2</td>
-                        <td>2887</td>
-                        <td>Worldwide</td>
-                      </tr>
-                      <tr>
-                        <td>94</td>
-                        <td>CtrlSec0</td>
-                        <td>3546</td>
-                        <td>Worldwide</td>
-                      </tr>
-                      <tr>
-                        <td>91</td>
-                        <td>CtrlSec1</td>
-                        <td>2748</td>
-                        <td>Worldwide</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!-- /.table-responsive -->
-              </div>
-              <!-- /.col-lg-4 (nested) -->
-              <div class="col-lg-8">
-                <div id="morris-bar-chart"></div>
-              </div>
-              <!-- /.col-lg-8 (nested) -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <div class="panel panel-warning">
+      <!-- /.row -->
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="panel panel-primary">
             <div class="panel-heading">
-              <i class="fa fa-bar-chart-o fa-fw"></i> Query words<i class="fa fa-info-circle fa-fw"></i>
+              <div class="row">
+                <div class="col-xs-3">
+                  <i class="fa fa-comments-o fa-5x"></i>
+                </div>
+                <div class="col-xs-9 text-right">
+                  <div class="huge">130.782</div>
+                  <div>Tweets!</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="panel panel-green">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-xs-3">
+                  <i class="fa fa-user fa-5x"></i>
+                </div>
+                <div class="col-xs-9 text-right">
+                  <div class="huge">84.117</div>
+                  <div>Users!</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="panel panel-yellow">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-xs-3">
+                  <i class="fa fa-file-text-o fa-5x"></i>
+                </div>
+                <div class="col-xs-9 text-right">
+                  <div class="huge">44.559</div>
+                  <div>Distinct Words!</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="panel panel-red">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-xs-3">
+                  <i class="fa fa-smile-o fa-5x"></i>
+                </div>
+                <div class="col-xs-9 text-right">
+                  <div class="huge">15</div>
+                  <div>Sentiments!</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <i class="fa fa-bar-chart-o fa-fw"></i> Tweets per Hour<i class="fa fa-info-circle fa-fw"></i>
               <div class="pull-right">
                 <div class="btn-group">
                 </div>
@@ -221,236 +141,336 @@
             </div>
             <!-- /.panel-heading -->
             <div class="panel-body">
-                  <div class="table-responsive">
-                      <table class="table">
-                          <thead>
-                              <tr>
-                                  <th>General</th>
-                                  <th>General</th>
-                                  <th>Border-related</th>
-                                  <th>Hashtags</th>
-                                  <th>Locations</th>
-                                  <th>Entities</th></tr>
-                          </thead>
-                          <tbody>
-                              <tr>
-                                  <td>migrants</td>
-                                  <td>refugees</td>
-                                  <td>borders</td>
-                                  <td>#RefugeeCrisis</td>
-                                  <td>Syria</td>
-                                  <td>European Mobilisation</td>
-                              </tr>
-                              <tr>
-                                  <td>migration flow</td>
-                                  <td>migration crisis</td>
-                                  <td>open borders</td>
-                                  <td>#refugeesGr</td>
-                                  <td>Iraq</td>
-                                  <td>Amnesty International</td>
-                              </tr>
-                              <tr>
-                                  <td>migrant camps</td>
-                                  <td>refugee camps</td>
-                                  <td>border closure</td>
-                                  <td>#refugeeswelcome</td>
-                                  <td>Afghanistan</td>
-                                  <td>Frontex</td>
-                              </tr>
-                              <tr>
-                                  <td>irregular migrants</td>
-                                  <td>asylum seekers</td>
-                                  <td>border share</td>
-                                  <td>#FortressEurope</td>
-                                  <td>Pakistan</td>
-                                  <td>UNHCR</td>
-                              </tr>
-                              <tr>
-                                  <td>human rights</td>
-                                  <td>solidarity</td>
-                                  <td>No borders</td>
-                                  <td>#ProMuslimRefugees</td>
-                                  <td>Idomeni</td>
-                                  <td>UN Refugee Agency</td>
-                              </tr>
-                              <tr>
-                                  <td>ISIS</td>
-                                  <td>daesh</td>
-                                  <td>#OpentheBorders</td>
-                                  <td>#helpiscoming</td>
-                                  <td>Calais</td>
-                                  <td>@Moving Europe</td>
-                              </tr>
-                              <tr>
-                                  <td>muslims</td>
-                                  <td>islamists</td>
-                                  <td></td>
-                                  <td>#solidaritywithrefugees</td>
-                                  <td>Lesbos</td>
-                                  <td> </td>
-                              </tr>
-                              <tr>
-                                  <td>Balkan route</td>
-                                  <td>rapefugees</td>
-                                  <td></td>
-                                  <td>#safepassage</td>
-                                  <td>Lesvos</td>
-                                  <td> </td>
-                              </tr>
-                              <tr>
-                                  <td>Aylan</td>
-                                  <td></td>
-                                  <td></td>
-                                  <td>#antireport</td>
-                                  <td>Lesbosisland</td>
-                                  <td> </td>
-                              </tr>
-                          </tbody>
-                      </table>
-                  </div>
-                  <!-- /.table-responsive -->
+              <div id="morris-area-chart"></div>
             </div>
             <!-- /.panel-body -->
           </div>
-          <!-- /.panel-body -->
-        </div>
-      </div>
-      <!-- /.col-lg-8 -->
-      <div class="col-lg-4">
-        <div class="panel panel-warning">
-          <div class="panel-heading">
-            <i class="fa fa-cloud fa-fw"></i> Most Frequent Hashtags<i class="fa fa-info-circle fa-fw"></i>
+          <!-- /.panel -->
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <i class="fa fa-bar-chart-o fa-fw"></i> Top Users &amp; Users per Day<i class="fa fa-info-circle fa-fw"></i>
+              <div class="pull-right">
+                <div class="btn-group">
+                </div>
+              </div>
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="table-responsive">
+                    <table class="table table-bordered table-hover table-striped">
+                      <thead>
+                        <tr>
+                          <th>#Freq</th>
+                          <th>Username</th>
+                          <th>Followers</th>
+                          <th>Location</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>322</td>
+                          <td>cyberahsokatano</td>
+                          <td>1</td>
+                          <td>Starkiller Base</td>
+                        </tr>
+                        <tr>
+                          <td>287</td>
+                          <td>khalidrafiq138</td>
+                          <td>1092</td>
+                          <td>Pakistan</td>
+                        </tr>
+                        <tr>
+                          <td>183</td>
+                          <td>pakistanepeak</td>
+                          <td>1110</td>
+                          <td>Санкт-Петербург</td>
+                        </tr>
+                        <tr>
+                          <td>143</td>
+                          <td>pakistani_news</td>
+                          <td>10180</td>
+                          <td>Pakistan</td>
+                        </tr>
+                        <tr>
+                          <td>120</td>
+                          <td>Hash_Pakistan</td>
+                          <td>177</td>
+                          <td>+923437577075</td>
+                        </tr>
+                        <tr>
+                          <td>107</td>
+                          <td>CtrlSec2</td>
+                          <td>2887</td>
+                          <td>Worldwide</td>
+                        </tr>
+                        <tr>
+                          <td>94</td>
+                          <td>CtrlSec0</td>
+                          <td>3546</td>
+                          <td>Worldwide</td>
+                        </tr>
+                        <tr>
+                          <td>91</td>
+                          <td>CtrlSec1</td>
+                          <td>2748</td>
+                          <td>Worldwide</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- /.table-responsive -->
+                </div>
+                <!-- /.col-lg-4 (nested) -->
+                <div class="col-lg-8">
+                  <div id="morris-bar-chart"></div>
+                </div>
+                <!-- /.col-lg-8 (nested) -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <div class="panel panel-warning">
+              <div class="panel-heading">
+                <i class="fa fa-bar-chart-o fa-fw"></i> Query words<i class="fa fa-info-circle fa-fw"></i>
+                <div class="pull-right">
+                  <div class="btn-group">
+                  </div>
+                </div>
+              </div>
+              <!-- /.panel-heading -->
+              <div class="panel-body">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>General</th>
+                        <th>General</th>
+                        <th>Border-related</th>
+                        <th>Hashtags</th>
+                        <th>Locations</th>
+                        <th>Entities</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>migrants</td>
+                        <td>refugees</td>
+                        <td>borders</td>
+                        <td>#RefugeeCrisis</td>
+                        <td>Syria</td>
+                        <td>European Mobilisation</td>
+                      </tr>
+                      <tr>
+                        <td>migration flow</td>
+                        <td>migration crisis</td>
+                        <td>open borders</td>
+                        <td>#refugeesGr</td>
+                        <td>Iraq</td>
+                        <td>Amnesty International</td>
+                      </tr>
+                      <tr>
+                        <td>migrant camps</td>
+                        <td>refugee camps</td>
+                        <td>border closure</td>
+                        <td>#refugeeswelcome</td>
+                        <td>Afghanistan</td>
+                        <td>Frontex</td>
+                      </tr>
+                      <tr>
+                        <td>irregular migrants</td>
+                        <td>asylum seekers</td>
+                        <td>border share</td>
+                        <td>#FortressEurope</td>
+                        <td>Pakistan</td>
+                        <td>UNHCR</td>
+                      </tr>
+                      <tr>
+                        <td>human rights</td>
+                        <td>solidarity</td>
+                        <td>No borders</td>
+                        <td>#ProMuslimRefugees</td>
+                        <td>Idomeni</td>
+                        <td>UN Refugee Agency</td>
+                      </tr>
+                      <tr>
+                        <td>ISIS</td>
+                        <td>daesh</td>
+                        <td>#OpentheBorders</td>
+                        <td>#helpiscoming</td>
+                        <td>Calais</td>
+                        <td>@Moving Europe</td>
+                      </tr>
+                      <tr>
+                        <td>muslims</td>
+                        <td>islamists</td>
+                        <td></td>
+                        <td>#solidaritywithrefugees</td>
+                        <td>Lesbos</td>
+                        <td> </td>
+                      </tr>
+                      <tr>
+                        <td>Balkan route</td>
+                        <td>rapefugees</td>
+                        <td></td>
+                        <td>#safepassage</td>
+                        <td>Lesvos</td>
+                        <td> </td>
+                      </tr>
+                      <tr>
+                        <td>Aylan</td>
+                        <td></td>
+                        <td></td>
+                        <td>#antireport</td>
+                        <td>Lesbosisland</td>
+                        <td> </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- /.table-responsive -->
+              </div>
+              <!-- /.panel-body -->
+            </div>
+            <!-- /.panel-body -->
           </div>
-          <div class="panel-body">
-            <div class="wordcloud">
-              <script src="http://cdn.tagul.com/embed/6kdfmvc694d1"></script>
-              <!-- Please don't remove attribution to Tagul.com -->
-              <div style="display: table; margin: 0 auto;"><a href="http://tagul.com/">Created with Tagul.com</a></div>
+        </div>
+        <!-- /.col-lg-8 -->
+        <div class="col-lg-4">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <i class="fa fa-cloud fa-fw"></i> Most Frequent Hashtags<i class="fa fa-info-circle fa-fw"></i>
+            </div>
+            <div class="panel-body">
+              <div class="wordcloud">
+                <script src="http://cdn.tagul.com/embed/6kdfmvc694d1"></script>
+                <!-- Please don't remove attribution to Tagul.com -->
+                <div style="display: table; margin: 0 auto;"><a href="http://tagul.com/">Created with Tagul.com</a></div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="chat-panel panel panel-info">
-          <div class="panel-heading">
-            <i class="fa fa-comments fa-fw"></i> Sample Tweets<i class="fa fa-info-circle fa-fw"></i>
-            <div class="btn-group pull-right">
+          <div class="chat-panel panel panel-info">
+            <div class="panel-heading">
+              <i class="fa fa-comments fa-fw"></i> Sample Tweets<i class="fa fa-info-circle fa-fw"></i>
+              <div class="btn-group pull-right">
+              </div>
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+              <ul class="chat">
+                <li class="left clearfix">
+                  <span class="chat-img pull-left">
+                    <img src="http://pbs.twimg.com/profile_images/573373156913635328/AijCVR9e_normal.jpeg" alt="User Avatar" class="img-circle" />
+                  </span>
+                  <div class="chat-body clearfix">
+                    <div class="header">
+                      <strong class="primary-font">AbhaDeshai</strong>
+                      <small class="pull-right text-muted">
+                        <i class="fa fa-clock-o fa-fw"></i> 29/04/16 01:57
+                      </small>
+                    </div>
+                    <p>
+                      Pentagon Working To 'Take Out' ISIS's Internet: The US military's secretive Cyber Command (CYBERCOM) is working to destroy the ISIS g...
+                    </p>
+                  </div>
+                </li>
+                <li class="right clearfix">
+                  <span class="chat-img pull-right">
+                    <img src="http://pbs.twimg.com/profile_images/637033456711544832/bwAF8E9X_normal.jpg" alt="User Avatar" class="img-circle" />
+                  </span>
+                  <div class="chat-body clearfix">
+                    <div class="header">
+                      <small class=" text-muted">
+                        <i class="fa fa-clock-o fa-fw"></i> 28/04/16 04:24</small>
+                      <strong class="pull-right primary-font">lazzycow</strong>
+                    </div>
+                    <p>
+                      \"U.N. Envoy Prods U.S. and Russia to ‘Revitalize’ Syria Cease-Fire\" by NICK CUMMING-BRUCE via NYT The New York Tim… https://t.co/fnvAkXBuLQ
+                    </p>
+                  </div>
+                </li>
+                <li class="left clearfix">
+                  <span class="chat-img pull-left">
+                    <img src="http://pbs.twimg.com/profile_images/724822989301227520/8wVqjXpW_normal.jpg" alt="User Avatar" class="img-circle" />
+                  </span>
+                  <div class="chat-body clearfix">
+                    <div class="header">
+                      <strong class="primary-font">Khalil_Mandhro</strong>
+                      <small class="pull-right text-muted">
+                        <i class="fa fa-clock-o fa-fw"></i> 29/04/16 05:34</small>
+                    </div>
+                    <p>
+                      RT @iamAhmadshahzad: Wishing every1 a happy n blessed Friday..may Allah accept our Prayerz n have Mercy on Pakistan ISA 👊🏼🇵🇰 #TGIF
+                    </p>
+                  </div>
+                </li>
+                <li class="right clearfix">
+                  <span class="chat-img pull-right">
+                    <img src="http://pbs.twimg.com/profile_images/662346329000009728/eNLkckZb_normal.jpg" alt="User Avatar" class="img-circle" />
+                  </span>
+                  <div class="chat-body clearfix">
+                    <div class="header">
+                      <small class=" text-muted">
+                        <i class="fa fa-clock-o fa-fw"></i> 01/05/16 18:48</small>
+                      <strong class="pull-right primary-font">deafdemocracy</strong>
+                    </div>
+                    <p>
+                      RT @kanhaiyajnusu: We will not pay the fine and fight the unfair HLEC of JNU. But our solidarity long live! Chatra, Mazdoor, Kisaan ekta Zi…
+                    </p>
+                  </div>
+                </li>
+                <li class="left clearfix">
+                  <span class="chat-img pull-left">
+                    <img src="http://pbs.twimg.com/profile_images/721954666263646209/M0XssCKb_normal.png" alt="User Avatar" class="img-circle" />
+                  </span>
+                  <div class="chat-body clearfix">
+                    <div class="header">
+                      <strong class="primary-font">JennyJewell3</strong>
+                      <small class="pull-right text-muted">
+                        <i class="fa fa-clock-o fa-fw"></i> 28/04/16 07:41</small>
+                    </div>
+                    <p>
+                      RT @Nigel_Farage: Britain's borders a total shambles inside EU. Damaging &amp; unsafe. Theresa May worst Home Secretary. Utter failure. https:/…
+                    </p>
+                  </div>
+                </li>
+                <li class="right clearfix">
+                  <span class="chat-img pull-right">
+                    <img src="http://pbs.twimg.com/profile_images/722628036453998592/ulgPxpWa_normal.jpg" alt="User Avatar" class="img-circle" />
+                  </span>
+                  <div class="chat-body clearfix">
+                    <div class="header">
+                      <small class=" text-muted">
+                        <i class="fa fa-clock-o fa-fw"></i> 28/04/16 06:56</small>
+                      <strong class="pull-right primary-font">erickaquiones</strong>
+                    </div>
+                    <p>
+                      Syria Activists Say Airstrikes in Rebel-Held Aleppo Kill 20: Syrian monitoring group, rescue workers say airs... https://t.co/4fKddCTsBK
+                    </p>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
-          <!-- /.panel-heading -->
-          <div class="panel-body">
-            <ul class="chat">
-              <li class="left clearfix">
-                <span class="chat-img pull-left">
-                  <img src="http://pbs.twimg.com/profile_images/573373156913635328/AijCVR9e_normal.jpeg" alt="User Avatar" class="img-circle" />
-                </span>
-                <div class="chat-body clearfix">
-                  <div class="header">
-                    <strong class="primary-font">AbhaDeshai</strong>
-                    <small class="pull-right text-muted">
-                      <i class="fa fa-clock-o fa-fw"></i> 29/04/16 01:57
-                    </small>
-                  </div>
-                  <p>
-                    Pentagon Working To 'Take Out' ISIS's Internet: The US military's secretive Cyber Command (CYBERCOM) is working to destroy the ISIS g...
-                  </p>
-                </div>
-              </li>
-              <li class="right clearfix">
-                <span class="chat-img pull-right">
-                  <img src="http://pbs.twimg.com/profile_images/637033456711544832/bwAF8E9X_normal.jpg" alt="User Avatar" class="img-circle" />
-                </span>
-                <div class="chat-body clearfix">
-                  <div class="header">
-                    <small class=" text-muted">
-                      <i class="fa fa-clock-o fa-fw"></i> 28/04/16 04:24</small>
-                    <strong class="pull-right primary-font">lazzycow</strong>
-                  </div>
-                  <p>
-                    \"U.N. Envoy Prods U.S. and Russia to ‘Revitalize’ Syria Cease-Fire\" by NICK CUMMING-BRUCE via NYT The New York Tim… https://t.co/fnvAkXBuLQ
-                  </p>
-                </div>
-              </li>
-              <li class="left clearfix">
-                <span class="chat-img pull-left">
-                  <img src="http://pbs.twimg.com/profile_images/724822989301227520/8wVqjXpW_normal.jpg" alt="User Avatar" class="img-circle" />
-                </span>
-                <div class="chat-body clearfix">
-                  <div class="header">
-                    <strong class="primary-font">Khalil_Mandhro</strong>
-                    <small class="pull-right text-muted">
-                      <i class="fa fa-clock-o fa-fw"></i> 29/04/16 05:34</small>
-                  </div>
-                  <p>
-                    RT @iamAhmadshahzad: Wishing every1 a happy n blessed Friday..may Allah accept our Prayerz n have Mercy on Pakistan ISA 👊🏼🇵🇰 #TGIF
-                  </p>
-                </div>
-              </li>
-              <li class="right clearfix">
-                <span class="chat-img pull-right">
-                  <img src="http://pbs.twimg.com/profile_images/662346329000009728/eNLkckZb_normal.jpg" alt="User Avatar" class="img-circle" />
-                </span>
-                <div class="chat-body clearfix">
-                  <div class="header">
-                    <small class=" text-muted">
-                      <i class="fa fa-clock-o fa-fw"></i> 01/05/16 18:48</small>
-                    <strong class="pull-right primary-font">deafdemocracy</strong>
-                  </div>
-                  <p>
-                    RT @kanhaiyajnusu: We will not pay the fine and fight the unfair HLEC of JNU. But our solidarity long live! Chatra, Mazdoor, Kisaan ekta Zi…
-                  </p>
-                </div>
-              </li>
-              <li class="left clearfix">
-                <span class="chat-img pull-left">
-                  <img src="http://pbs.twimg.com/profile_images/721954666263646209/M0XssCKb_normal.png" alt="User Avatar" class="img-circle" />
-                </span>
-                <div class="chat-body clearfix">
-                  <div class="header">
-                    <strong class="primary-font">JennyJewell3</strong>
-                    <small class="pull-right text-muted">
-                      <i class="fa fa-clock-o fa-fw"></i> 28/04/16 07:41</small>
-                  </div>
-                  <p>
-                    RT @Nigel_Farage: Britain's borders a total shambles inside EU. Damaging &amp; unsafe. Theresa May worst Home Secretary. Utter failure. https:/…
-                  </p>
-                </div>
-              </li>
-              <li class="right clearfix">
-                <span class="chat-img pull-right">
-                  <img src="http://pbs.twimg.com/profile_images/722628036453998592/ulgPxpWa_normal.jpg" alt="User Avatar" class="img-circle" />
-                </span>
-                <div class="chat-body clearfix">
-                  <div class="header">
-                    <small class=" text-muted">
-                      <i class="fa fa-clock-o fa-fw"></i> 28/04/16 06:56</small>
-                    <strong class="pull-right primary-font">erickaquiones</strong>
-                  </div>
-                  <p>
-                    Syria Activists Say Airstrikes in Rebel-Held Aleppo Kill 20: Syrian monitoring group, rescue workers say airs... https://t.co/4fKddCTsBK
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
 
-        <div class="panel panel-info">
-          <div class="panel-heading">
-            <i class="fa fa-bar-chart-o fa-fw"></i> Top Countries by tweets count<i class="fa fa-info-circle fa-fw"></i> 
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <i class="fa fa-bar-chart-o fa-fw"></i> Top Countries by tweets count<i class="fa fa-info-circle fa-fw"></i>
+            </div>
+            <div class="panel-body">
+              <div id="morris-donut-chart"></div>
+              <!--<a href="#" class="btn btn-default btn-block">View Details</a>-->
+            </div>
+            <!-- /.panel-body -->
           </div>
-          <div class="panel-body">
-            <div id="morris-donut-chart"></div>
-            <!--<a href="#" class="btn btn-default btn-block">View Details</a>-->
-          </div>
-          <!-- /.panel-body -->
         </div>
+        <!-- /.col-lg-4 -->
       </div>
-      <!-- /.col-lg-4 -->
+      <!-- /.row -->
+      <!-- /#page-wrapper -->
     </div>
-    <!-- /.row -->
-    <!-- /#page-wrapper -->
+    <!-- /#wrapper -->
   </div>
-  <!-- /#wrapper -->
-
   <!-- jQuery -->
   <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 

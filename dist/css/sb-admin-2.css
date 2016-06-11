@@ -389,3 +389,7 @@ table.dataTable thead .sorting:after {
 .splash-img img {
   width:75%;
 }
+
+.fa.fa-home.navicon{
+  font-size: 18px;
+}
