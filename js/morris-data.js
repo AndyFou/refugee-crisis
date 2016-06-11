@@ -792,7 +792,8 @@ $(function() {
         ykeys: ['a'],
         labels: ['Users'],
         hideHover: 'auto',
-        resize: true
+        resize: true,
+        barColors: ['#5cb85c']
     });
 
 });
