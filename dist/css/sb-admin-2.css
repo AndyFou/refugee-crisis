@@ -415,8 +415,9 @@ table.dataTable thead .sorting:after {
 
 .about{
   font-size: 18px;
-  text-align: center;
-  padding: 0px 300px;
+  padding: 0px 200px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .team-member{
